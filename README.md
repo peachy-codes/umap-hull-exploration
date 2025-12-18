@@ -1,7 +1,5 @@
 # MNIST UMAP Hull Curvature Experiment (2D)
 
-This project runs the experiment you described in a **2D UMAP embedding**:
-
 1. Fit UMAP on a fixed MNIST subset (the "full" reference).
 2. Drop one digit class; then gradually add it back in fractions, refitting UMAP each stage.
 3. For each embedding, fit an **enclosing boundary** (concave hull via alpha-shape, then a smooth periodic spline).
